@@ -9,6 +9,7 @@ const Post = props => {
 
   console.log ('Here is post :', props);
   console.log (props.postData.id);
+  console.log ('here is comments :', props.postData.comments);
 
   return (
     <div className='post-border'>
@@ -26,7 +27,9 @@ const Post = props => {
       {/* Is LikeSection getting all the props it needs to work correctly? */}
       <LikeSection likePost={() => likePost(props.postData.id)} />
       {/* Comments also wants its props! */}
-      <Comments />
+    
+       <Comments commentData = {props.postData.comments} />
+
     </div>
   );
 };
