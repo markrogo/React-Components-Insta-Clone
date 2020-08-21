@@ -12,7 +12,7 @@ const Posts = (props) => {
     <div className='posts-container-wrapper'>
       
      {props.postData.map ((post) => (
-       console.log ('from the map ', post),
+       
         <Post key={post.id} postData ={post} likePost={likePost}/>
       ))} 
       

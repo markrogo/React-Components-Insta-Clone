@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 const Comment = props => {
   // 🔥 Make sure the parent of Comment is passing the right props!
   const { comment } = props;
-  console.log ('here is props inside comments ', props)
+  // console.log ('here is props inside comments ', props)
 
   return (
     <div className='comment-text'>
