@@ -1,7 +1,10 @@
 // Look at the number of likes on line 26. Right now it's hard coded to '100'.
 // Use a piece of data coming in through props to display the correct number of likes.
 // You will also add an onClick handler that utilizes `likePost` to increase the count of likes.
+
+// MAYBE TRY THIS
 // (As a stretch goal, you might want to prevent your user from "liking" the same post more than once.)
+
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComment, faHeart } from '@fortawesome/free-regular-svg-icons';

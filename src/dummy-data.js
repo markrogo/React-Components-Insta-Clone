@@ -54,6 +54,66 @@ const dummyData = [
             },
         ],
     },
+    {
+        id: 3,
+        username: "mark",
+        thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
+        imageUrl: 'https://images.unsplash.com/photo-1598000552464-a249f5a837ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1268&q=80',
+        likes: 112,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                id: 40,
+                username: "mark",
+                text: "Comment comment comment",
+            },
+            {
+                id: 37,
+                username: "michaelmarzetta",
+                text: "Omg that match was crazy",
+            },
+            {
+                id: 38,
+                username: "themexican_leprechaun",
+                text: "What a setup",
+            },
+            {
+                id: 39,
+                username: "dennis_futbol",
+                text: "It that injustice",
+            },
+        ],
+    },
+    {
+        id: 4,
+        username: "chelsea",
+        thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
+        imageUrl: 'https://images.unsplash.com/photo-1597926661204-6a8994673a6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1615&q=80',
+        likes: 234,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                id: 41,
+                username: "chelsea",
+                text: "minimum verbosity",
+            },
+            {
+                id: 40,
+                username: "mark",
+                text: 'wowowowowoow'
+            },
+            {
+                id: 38,
+                username: "themexican_leprechaun",
+                text: "What a setup",
+            },
+            {
+                id: 39,
+                username: "dennis_futbol",
+                text: "It that injustice",
+            },
+        ],
+    }
 ];
 
 export default dummyData;
